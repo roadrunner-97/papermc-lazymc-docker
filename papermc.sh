@@ -19,7 +19,7 @@ then
 fi
 
 # Get version information and build download URL and jar name
-URL=https://papermc.io/api/v2/projects/paper
+URL=https://api.papermc.io/v2/projects/paper
 if [ ${MC_VERSION} = latest ]
 then
   # Get the latest MC version
